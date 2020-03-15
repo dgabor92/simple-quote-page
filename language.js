@@ -14,7 +14,6 @@ $(function() {
     const clickedLanguage = $(event.currentTarget);
     // A <option> tagben a "value" értéke (hu,en,de)
     const language = clickedLanguage.val();
-
     // Az idézet helye <p> tag
     const szoveg = $(".quote");
     // Fordítás behelyezése a <p> tagbe
